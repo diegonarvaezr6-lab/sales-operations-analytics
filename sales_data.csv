@@ -1,0 +1,501 @@
+order_id,order_date,customer_id,product,category,region,quantity,unit_price,unit_cost,discount,revenue,profit
+1,2025-05-21,C032,Monitor,Electronics,South,1,230,145,0.15,195.5,50.5
+2,2025-12-13,C095,Keyboard,Accessories,North,6,65,30,0,390,210
+3,2025-02-17,C028,Headphones,Electronics,South,1,110,60,0,110,50
+4,2025-11-29,C090,Laptop,Electronics,West,5,780,590,0,3900,950
+5,2025-05-23,C104,Mouse,Accessories,North,4,35,12,0.1,126.0,78.0
+6,2025-06-24,C036,Keyboard,Accessories,South,6,65,30,0.05,370.5,190.5
+7,2025-02-17,C049,Mouse,Accessories,North,3,35,12,0,105,69
+8,2025-05-16,C104,Office Chair,Furniture,North,3,210,120,0.1,567.0,207.0
+9,2025-07-13,C011,Webcam,Accessories,East,5,85,42,0,425,215
+10,2025-12-27,C009,Office Chair,Furniture,North,5,210,120,0,1050,450
+11,2025-04-30,C013,Mouse,Accessories,West,3,35,12,0,105,69
+12,2025-07-06,C021,Desk,Furniture,East,4,320,190,0.15,1088.0,328.0
+13,2025-05-17,C090,Office Chair,Furniture,North,2,210,120,0.15,357.0,117.0
+14,2025-05-06,C021,Keyboard,Accessories,West,5,65,30,0.15,276.25,126.25
+15,2025-12-19,C072,Headphones,Electronics,South,3,110,60,0.15,280.5,100.5
+16,2025-01-17,C104,Office Chair,Furniture,East,1,210,120,0,210,90
+17,2025-04-19,C073,Headphones,Electronics,East,3,110,60,0,330,150
+18,2025-07-22,C083,Mouse,Accessories,West,6,35,12,0.05,199.5,127.5
+19,2025-05-07,C096,Keyboard,Accessories,East,3,65,30,0,195,105
+20,2025-07-05,C029,Headphones,Electronics,South,5,110,60,0.05,522.5,222.5
+21,2025-02-26,C020,Webcam,Accessories,South,1,85,42,0,85,43
+22,2025-07-17,C049,Headphones,Electronics,West,5,110,60,0,550,250
+23,2025-12-15,C093,Desk,Furniture,North,5,320,190,0,1600,650
+24,2025-02-27,C038,Desk,Furniture,West,6,320,190,0,1920,780
+25,2025-05-15,C065,Keyboard,Accessories,South,4,65,30,0,260,140
+26,2025-11-24,C065,Monitor,Electronics,South,6,230,145,0,1380,510
+27,2025-10-04,C100,Keyboard,Accessories,North,3,65,30,0,195,105
+28,2025-02-27,C047,Office Chair,Furniture,East,4,210,120,0,840,360
+29,2025-10-18,C011,Mouse,Accessories,North,1,35,12,0,35,23
+30,2025-03-06,C017,Webcam,Accessories,West,1,85,42,0.1,76.5,34.5
+31,2025-11-07,C055,Keyboard,Accessories,South,3,65,30,0.1,175.5,85.5
+32,2025-07-24,C086,Mouse,Accessories,East,6,35,12,0,210,138
+33,2025-03-03,C032,Webcam,Accessories,South,5,85,42,0.05,403.75,193.75
+34,2025-10-29,C071,Monitor,Electronics,South,3,230,145,0,690,255
+35,2025-12-29,C081,Mouse,Accessories,North,1,35,12,0,35,23
+36,2025-06-19,C010,Mouse,Accessories,South,1,35,12,0,35,23
+37,2025-04-20,C070,Desk,Furniture,South,6,320,190,0.05,1824.0,684.0
+38,2025-07-28,C025,Webcam,Accessories,North,2,85,42,0.05,161.5,77.5
+39,2025-07-01,C055,Monitor,Electronics,West,6,230,145,0.05,1311.0,441.0
+40,2025-12-11,C084,Webcam,Accessories,North,6,85,42,0,510,258
+41,2025-06-23,C103,Laptop,Electronics,North,4,780,590,0.15,2652.0,292.0
+42,2025-10-02,C058,Mouse,Accessories,South,2,35,12,0,70,46
+43,2025-08-25,C032,Headphones,Electronics,North,2,110,60,0,220,100
+44,2025-01-26,C084,Webcam,Accessories,North,5,85,42,0,425,215
+45,2025-07-28,C063,Monitor,Electronics,West,2,230,145,0,460,170
+46,2025-03-26,C049,Mouse,Accessories,North,4,35,12,0,140,92
+47,2025-05-27,C055,Headphones,Electronics,West,3,110,60,0.05,313.5,133.5
+48,2025-04-22,C008,Keyboard,Accessories,North,2,65,30,0,130,70
+49,2025-10-27,C062,Office Chair,Furniture,South,1,210,120,0,210,90
+50,2025-04-06,C009,Laptop,Electronics,North,5,780,590,0,3900,950
+51,2025-10-19,C032,Mouse,Accessories,North,4,35,12,0,140,92
+52,2025-10-26,C073,Monitor,Electronics,East,4,230,145,0.15,782.0,202.0
+53,2025-06-10,C031,Desk,Furniture,East,2,320,190,0.15,544.0,164.0
+54,2025-11-27,C039,Headphones,Electronics,West,2,110,60,0.15,187.0,67.0
+55,2025-08-23,C080,Office Chair,Furniture,North,1,210,120,0,210,90
+56,2025-09-17,C034,Monitor,Electronics,South,5,230,145,0,1150,425
+57,2025-07-09,C037,Office Chair,Furniture,South,1,210,120,0,210,90
+58,2025-06-04,C079,Webcam,Accessories,North,5,85,42,0.15,361.25,151.25
+59,2025-03-10,C034,Desk,Furniture,North,6,320,190,0,1920,780
+60,2025-03-21,C035,Monitor,Electronics,East,6,230,145,0.1,1242.0,372.0
+61,2025-04-15,C088,Mouse,Accessories,East,6,35,12,0,210,138
+62,2025-02-17,C082,Webcam,Accessories,West,3,85,42,0,255,129
+63,2025-06-20,C099,Desk,Furniture,South,1,320,190,0,320,130
+64,2025-08-15,C071,Desk,Furniture,West,2,320,190,0.15,544.0,164.0
+65,2025-12-20,C020,Laptop,Electronics,North,1,780,590,0,780,190
+66,2025-03-17,C056,Office Chair,Furniture,South,5,210,120,0.1,945.0,345.0
+67,2025-01-21,C046,Laptop,Electronics,South,3,780,590,0,2340,570
+68,2025-07-01,C100,Mouse,Accessories,West,6,35,12,0,210,138
+69,2025-04-01,C053,Keyboard,Accessories,North,2,65,30,0,130,70
+70,2025-07-30,C103,Keyboard,Accessories,South,6,65,30,0,390,210
+71,2025-02-25,C049,Desk,Furniture,North,2,320,190,0.15,544.0,164.0
+72,2025-08-24,C045,Webcam,Accessories,East,2,85,42,0,170,86
+73,2025-12-04,C025,Mouse,Accessories,West,2,35,12,0,70,46
+74,2025-05-23,C045,Office Chair,Furniture,West,3,210,120,0,630,270
+75,2025-05-14,C023,Office Chair,Furniture,East,1,210,120,0,210,90
+76,2025-08-11,C045,Laptop,Electronics,East,1,780,590,0.1,702.0,112.0
+77,2025-03-01,C050,Headphones,Electronics,South,5,110,60,0.1,495.0,195.0
+78,2025-08-12,C001,Desk,Furniture,South,1,320,190,0.15,272.0,82.0
+79,2025-12-07,C043,Office Chair,Furniture,East,4,210,120,0,840,360
+80,2025-09-17,C040,Monitor,Electronics,West,6,230,145,0,1380,510
+81,2025-06-01,C071,Office Chair,Furniture,South,4,210,120,0.15,714.0,234.0
+82,2025-07-14,C087,Mouse,Accessories,South,4,35,12,0.15,119.0,71.0
+83,2025-01-01,C039,Desk,Furniture,East,4,320,190,0.1,1152.0,392.0
+84,2025-11-07,C084,Mouse,Accessories,East,4,35,12,0.1,126.0,78.0
+85,2025-12-12,C028,Webcam,Accessories,West,4,85,42,0.05,323.0,155.0
+86,2025-05-26,C066,Keyboard,Accessories,East,6,65,30,0,390,210
+87,2025-06-08,C029,Monitor,Electronics,South,2,230,145,0.15,391.0,101.0
+88,2025-05-06,C061,Keyboard,Accessories,North,1,65,30,0,65,35
+89,2025-10-22,C025,Webcam,Accessories,West,4,85,42,0.15,289.0,121.0
+90,2025-03-17,C084,Webcam,Accessories,North,4,85,42,0,340,172
+91,2025-04-01,C103,Monitor,Electronics,West,4,230,145,0,920,340
+92,2025-03-04,C059,Laptop,Electronics,South,5,780,590,0,3900,950
+93,2025-10-14,C077,Webcam,Accessories,East,6,85,42,0.1,459.0,207.0
+94,2025-09-16,C055,Webcam,Accessories,West,5,85,42,0.15,361.25,151.25
+95,2025-08-19,C034,Keyboard,Accessories,South,6,65,30,0.05,370.5,190.5
+96,2025-11-17,C031,Desk,Furniture,East,5,320,190,0.05,1520.0,570.0
+97,2025-05-27,C031,Webcam,Accessories,East,1,85,42,0.15,72.25,30.25
+98,2025-02-11,C018,Office Chair,Furniture,South,3,210,120,0.1,567.0,207.0
+99,2025-03-20,C091,Mouse,Accessories,South,4,35,12,0.15,119.0,71.0
+100,2025-06-19,C070,Monitor,Electronics,West,4,230,145,0.05,874.0,294.0
+101,2025-08-04,C050,Headphones,Electronics,North,1,110,60,0,110,50
+102,2025-06-30,C039,Headphones,Electronics,West,4,110,60,0,440,200
+103,2025-10-07,C103,Headphones,Electronics,South,5,110,60,0.15,467.5,167.5
+104,2025-08-12,C063,Webcam,Accessories,North,2,85,42,0,170,86
+105,2025-12-14,C103,Headphones,Electronics,West,3,110,60,0.15,280.5,100.5
+106,2025-11-15,C069,Keyboard,Accessories,North,4,65,30,0,260,140
+107,2025-12-06,C004,Headphones,Electronics,North,5,110,60,0.1,495.0,195.0
+108,2025-04-04,C007,Headphones,Electronics,East,2,110,60,0.05,209.0,89.0
+109,2025-08-21,C042,Headphones,Electronics,East,3,110,60,0,330,150
+110,2025-05-10,C107,Headphones,Electronics,North,3,110,60,0.05,313.5,133.5
+111,2025-10-04,C007,Webcam,Accessories,East,1,85,42,0.15,72.25,30.25
+112,2025-11-30,C006,Mouse,Accessories,North,6,35,12,0,210,138
+113,2025-11-15,C020,Mouse,Accessories,South,2,35,12,0,70,46
+114,2025-02-28,C073,Keyboard,Accessories,South,4,65,30,0.15,221.0,101.0
+115,2025-07-08,C022,Webcam,Accessories,North,6,85,42,0,510,258
+116,2025-10-24,C004,Keyboard,Accessories,East,3,65,30,0,195,105
+117,2025-04-12,C010,Headphones,Electronics,South,4,110,60,0.15,374.0,134.0
+118,2025-12-17,C077,Monitor,Electronics,North,6,230,145,0,1380,510
+119,2025-08-08,C085,Laptop,Electronics,East,3,780,590,0.1,2106.0,336.0
+120,2025-06-24,C002,Monitor,Electronics,West,5,230,145,0.15,977.5,252.5
+121,2025-07-05,C082,Webcam,Accessories,West,1,85,42,0.05,80.75,38.75
+122,2025-09-25,C084,Keyboard,Accessories,East,4,65,30,0,260,140
+123,2025-10-31,C035,Webcam,Accessories,East,4,85,42,0.05,323.0,155.0
+124,2025-08-19,C032,Mouse,Accessories,West,1,35,12,0,35,23
+125,2025-09-11,C109,Headphones,Electronics,East,3,110,60,0,330,150
+126,2025-07-01,C103,Keyboard,Accessories,East,4,65,30,0,260,140
+127,2025-12-26,C036,Office Chair,Furniture,North,3,210,120,0.1,567.0,207.0
+128,2025-07-28,C063,Mouse,Accessories,South,1,35,12,0,35,23
+129,2025-09-09,C058,Webcam,Accessories,North,6,85,42,0.15,433.5,181.5
+130,2025-07-27,C089,Monitor,Electronics,South,3,230,145,0,690,255
+131,2025-07-08,C061,Desk,Furniture,East,6,320,190,0.1,1728.0,588.0
+132,2025-06-19,C046,Headphones,Electronics,West,6,110,60,0.1,594.0,234.0
+133,2025-04-29,C016,Desk,Furniture,South,3,320,190,0,960,390
+134,2025-10-02,C098,Office Chair,Furniture,South,1,210,120,0.15,178.5,58.5
+135,2025-09-05,C036,Mouse,Accessories,East,2,35,12,0.15,59.5,35.5
+136,2025-04-27,C047,Monitor,Electronics,South,2,230,145,0,460,170
+137,2025-10-01,C017,Desk,Furniture,East,1,320,190,0.15,272.0,82.0
+138,2025-05-30,C090,Laptop,Electronics,South,1,780,590,0.1,702.0,112.0
+139,2025-10-21,C037,Webcam,Accessories,West,1,85,42,0,85,43
+140,2025-04-05,C007,Webcam,Accessories,East,4,85,42,0,340,172
+141,2025-07-25,C063,Webcam,Accessories,North,1,85,42,0,85,43
+142,2025-10-16,C039,Laptop,Electronics,North,2,780,590,0,1560,380
+143,2025-08-02,C078,Mouse,Accessories,South,1,35,12,0.1,31.5,19.5
+144,2025-06-02,C076,Headphones,Electronics,West,4,110,60,0.05,418.0,178.0
+145,2025-01-31,C079,Desk,Furniture,North,5,320,190,0.1,1440.0,490.0
+146,2025-05-16,C085,Mouse,Accessories,North,6,35,12,0,210,138
+147,2025-10-10,C010,Keyboard,Accessories,South,2,65,30,0,130,70
+148,2025-12-19,C077,Laptop,Electronics,West,4,780,590,0.05,2964.0,604.0
+149,2025-05-28,C091,Desk,Furniture,East,1,320,190,0,320,130
+150,2025-04-30,C034,Webcam,Accessories,South,1,85,42,0.15,72.25,30.25
+151,2025-04-26,C083,Headphones,Electronics,South,1,110,60,0.1,99.0,39.0
+152,2025-01-31,C022,Desk,Furniture,East,2,320,190,0,640,260
+153,2025-08-28,C089,Desk,Furniture,East,4,320,190,0,1280,520
+154,2025-10-04,C064,Headphones,Electronics,West,3,110,60,0.1,297.0,117.0
+155,2025-08-10,C095,Monitor,Electronics,East,5,230,145,0,1150,425
+156,2025-04-28,C087,Desk,Furniture,North,1,320,190,0,320,130
+157,2025-03-31,C061,Desk,Furniture,West,5,320,190,0,1600,650
+158,2025-08-12,C082,Desk,Furniture,West,2,320,190,0.1,576.0,196.0
+159,2025-07-29,C043,Monitor,Electronics,East,4,230,145,0,920,340
+160,2025-07-30,C089,Monitor,Electronics,West,2,230,145,0,460,170
+161,2025-10-09,C005,Desk,Furniture,West,6,320,190,0.05,1824.0,684.0
+162,2025-06-15,C015,Monitor,Electronics,West,3,230,145,0,690,255
+163,2025-08-25,C053,Laptop,Electronics,North,6,780,590,0.1,4212.0,672.0
+164,2025-11-15,C097,Mouse,Accessories,West,5,35,12,0,175,115
+165,2025-05-17,C071,Webcam,Accessories,South,1,85,42,0,85,43
+166,2025-09-06,C016,Desk,Furniture,North,4,320,190,0.15,1088.0,328.0
+167,2025-06-09,C071,Mouse,Accessories,North,6,35,12,0,210,138
+168,2025-02-28,C060,Headphones,Electronics,North,1,110,60,0,110,50
+169,2025-05-30,C066,Keyboard,Accessories,East,4,65,30,0.15,221.0,101.0
+170,2025-05-05,C059,Headphones,Electronics,South,4,110,60,0.05,418.0,178.0
+171,2025-09-18,C096,Headphones,Electronics,South,2,110,60,0.1,198.0,78.0
+172,2025-06-24,C101,Monitor,Electronics,East,3,230,145,0.05,655.5,220.5
+173,2025-06-02,C108,Laptop,Electronics,West,3,780,590,0.15,1989.0,219.0
+174,2025-09-05,C045,Keyboard,Accessories,East,4,65,30,0.1,234.0,114.0
+175,2025-04-07,C090,Headphones,Electronics,South,4,110,60,0,440,200
+176,2025-01-23,C041,Headphones,Electronics,West,2,110,60,0.05,209.0,89.0
+177,2025-11-30,C020,Headphones,Electronics,West,4,110,60,0.15,374.0,134.0
+178,2025-10-30,C043,Laptop,Electronics,North,2,780,590,0.1,1404.0,224.0
+179,2025-08-22,C002,Webcam,Accessories,South,1,85,42,0.1,76.5,34.5
+180,2025-02-08,C061,Headphones,Electronics,East,6,110,60,0,660,300
+181,2025-07-23,C084,Office Chair,Furniture,North,5,210,120,0.15,892.5,292.5
+182,2025-07-14,C041,Office Chair,Furniture,West,6,210,120,0.1,1134.0,414.0
+183,2025-05-01,C081,Laptop,Electronics,East,5,780,590,0,3900,950
+184,2025-08-11,C013,Mouse,Accessories,North,6,35,12,0,210,138
+185,2025-06-03,C004,Webcam,Accessories,North,2,85,42,0.15,144.5,60.5
+186,2025-07-03,C048,Office Chair,Furniture,West,1,210,120,0,210,90
+187,2025-07-30,C073,Keyboard,Accessories,South,2,65,30,0.1,117.0,57.0
+188,2025-11-09,C049,Keyboard,Accessories,South,2,65,30,0,130,70
+189,2025-04-29,C060,Webcam,Accessories,East,5,85,42,0,425,215
+190,2025-01-05,C103,Webcam,Accessories,West,3,85,42,0.15,216.75,90.75
+191,2025-03-22,C010,Desk,Furniture,West,6,320,190,0.1,1728.0,588.0
+192,2025-11-24,C055,Office Chair,Furniture,East,5,210,120,0,1050,450
+193,2025-07-16,C110,Webcam,Accessories,West,3,85,42,0,255,129
+194,2025-10-20,C046,Monitor,Electronics,East,2,230,145,0.05,437.0,147.0
+195,2025-07-22,C036,Desk,Furniture,North,1,320,190,0.15,272.0,82.0
+196,2025-09-12,C107,Laptop,Electronics,East,5,780,590,0.15,3315.0,365.0
+197,2025-04-23,C082,Mouse,Accessories,South,5,35,12,0,175,115
+198,2025-12-04,C088,Desk,Furniture,South,6,320,190,0.15,1632.0,492.0
+199,2025-01-21,C040,Monitor,Electronics,West,6,230,145,0.15,1173.0,303.0
+200,2025-03-09,C012,Laptop,Electronics,East,5,780,590,0,3900,950
+201,2025-03-31,C026,Office Chair,Furniture,South,6,210,120,0.05,1197.0,477.0
+202,2025-05-20,C107,Office Chair,Furniture,South,5,210,120,0.1,945.0,345.0
+203,2025-06-23,C103,Desk,Furniture,North,4,320,190,0,1280,520
+204,2025-04-26,C087,Webcam,Accessories,West,1,85,42,0,85,43
+205,2025-01-08,C034,Office Chair,Furniture,North,1,210,120,0.05,199.5,79.5
+206,2025-12-11,C034,Webcam,Accessories,West,3,85,42,0.15,216.75,90.75
+207,2025-04-30,C061,Office Chair,Furniture,North,1,210,120,0.15,178.5,58.5
+208,2025-11-28,C009,Office Chair,Furniture,West,5,210,120,0,1050,450
+209,2025-03-01,C018,Desk,Furniture,North,6,320,190,0.05,1824.0,684.0
+210,2025-03-01,C013,Laptop,Electronics,South,3,780,590,0.05,2223.0,453.0
+211,2025-07-09,C086,Keyboard,Accessories,West,4,65,30,0.05,247.0,127.0
+212,2025-02-20,C107,Keyboard,Accessories,West,4,65,30,0.15,221.0,101.0
+213,2025-12-20,C048,Headphones,Electronics,South,3,110,60,0,330,150
+214,2025-07-05,C013,Webcam,Accessories,East,4,85,42,0,340,172
+215,2025-05-22,C025,Office Chair,Furniture,North,1,210,120,0.05,199.5,79.5
+216,2025-04-19,C083,Webcam,Accessories,North,1,85,42,0.15,72.25,30.25
+217,2025-03-06,C101,Laptop,Electronics,South,3,780,590,0,2340,570
+218,2025-10-28,C028,Monitor,Electronics,South,5,230,145,0,1150,425
+219,2025-01-02,C036,Office Chair,Furniture,South,2,210,120,0.1,378.0,138.0
+220,2025-03-31,C015,Keyboard,Accessories,North,5,65,30,0,325,175
+221,2025-05-02,C076,Keyboard,Accessories,East,1,65,30,0,65,35
+222,2025-01-27,C017,Laptop,Electronics,West,2,780,590,0,1560,380
+223,2025-09-01,C058,Monitor,Electronics,East,6,230,145,0,1380,510
+224,2025-04-24,C079,Monitor,Electronics,North,4,230,145,0.1,828.0,248.0
+225,2025-01-16,C008,Desk,Furniture,West,4,320,190,0.15,1088.0,328.0
+226,2025-02-25,C063,Headphones,Electronics,West,4,110,60,0.15,374.0,134.0
+227,2025-11-08,C019,Monitor,Electronics,North,1,230,145,0,230,85
+228,2025-11-21,C075,Keyboard,Accessories,East,3,65,30,0.1,175.5,85.5
+229,2025-05-31,C059,Headphones,Electronics,West,5,110,60,0.1,495.0,195.0
+230,2025-12-02,C084,Monitor,Electronics,South,6,230,145,0,1380,510
+231,2025-07-31,C044,Headphones,Electronics,West,4,110,60,0,440,200
+232,2025-02-18,C041,Headphones,Electronics,West,4,110,60,0.15,374.0,134.0
+233,2025-07-11,C020,Office Chair,Furniture,West,6,210,120,0,1260,540
+234,2025-02-17,C056,Monitor,Electronics,North,1,230,145,0,230,85
+235,2025-01-31,C076,Office Chair,Furniture,East,2,210,120,0.1,378.0,138.0
+236,2025-12-07,C097,Monitor,Electronics,West,4,230,145,0,920,340
+237,2025-06-09,C046,Laptop,Electronics,North,3,780,590,0.1,2106.0,336.0
+238,2025-09-04,C029,Mouse,Accessories,North,2,35,12,0.15,59.5,35.5
+239,2025-02-28,C098,Office Chair,Furniture,East,5,210,120,0,1050,450
+240,2025-11-15,C079,Mouse,Accessories,North,4,35,12,0.1,126.0,78.0
+241,2025-05-20,C090,Desk,Furniture,East,1,320,190,0,320,130
+242,2025-04-03,C019,Office Chair,Furniture,West,3,210,120,0,630,270
+243,2025-11-21,C004,Monitor,Electronics,North,2,230,145,0.15,391.0,101.0
+244,2025-08-21,C044,Mouse,Accessories,South,4,35,12,0.05,133.0,85.0
+245,2025-06-16,C100,Office Chair,Furniture,North,3,210,120,0.15,535.5,175.5
+246,2025-11-13,C007,Laptop,Electronics,North,2,780,590,0,1560,380
+247,2025-08-06,C063,Desk,Furniture,West,4,320,190,0.15,1088.0,328.0
+248,2025-09-20,C015,Headphones,Electronics,East,3,110,60,0,330,150
+249,2025-12-14,C087,Headphones,Electronics,West,1,110,60,0,110,50
+250,2025-07-22,C077,Desk,Furniture,North,1,320,190,0,320,130
+251,2025-04-19,C099,Laptop,Electronics,South,2,780,590,0,1560,380
+252,2025-03-03,C001,Desk,Furniture,West,3,320,190,0,960,390
+253,2025-07-14,C069,Headphones,Electronics,South,2,110,60,0,220,100
+254,2025-01-22,C056,Office Chair,Furniture,North,1,210,120,0.05,199.5,79.5
+255,2025-10-22,C055,Webcam,Accessories,West,1,85,42,0,85,43
+256,2025-07-27,C003,Headphones,Electronics,East,3,110,60,0,330,150
+257,2025-12-20,C047,Keyboard,Accessories,North,5,65,30,0.05,308.75,158.75
+258,2025-08-12,C076,Headphones,Electronics,West,1,110,60,0,110,50
+259,2025-06-23,C029,Monitor,Electronics,East,4,230,145,0,920,340
+260,2025-11-21,C015,Keyboard,Accessories,South,1,65,30,0.1,58.5,28.5
+261,2025-11-27,C105,Office Chair,Furniture,South,3,210,120,0.15,535.5,175.5
+262,2025-05-12,C026,Mouse,Accessories,South,1,35,12,0,35,23
+263,2025-04-01,C099,Keyboard,Accessories,West,6,65,30,0,390,210
+264,2025-08-18,C088,Webcam,Accessories,East,5,85,42,0.1,382.5,172.5
+265,2025-02-04,C061,Office Chair,Furniture,West,2,210,120,0.05,399.0,159.0
+266,2025-01-29,C046,Desk,Furniture,North,3,320,190,0.1,864.0,294.0
+267,2025-01-20,C008,Desk,Furniture,East,4,320,190,0.05,1216.0,456.0
+268,2025-02-16,C079,Desk,Furniture,West,1,320,190,0.15,272.0,82.0
+269,2025-01-22,C058,Webcam,Accessories,South,5,85,42,0.1,382.5,172.5
+270,2025-09-14,C020,Office Chair,Furniture,North,5,210,120,0.05,997.5,397.5
+271,2025-02-13,C065,Webcam,Accessories,South,1,85,42,0,85,43
+272,2025-08-13,C057,Laptop,Electronics,South,2,780,590,0.15,1326.0,146.0
+273,2025-07-18,C053,Office Chair,Furniture,East,3,210,120,0,630,270
+274,2025-06-21,C009,Laptop,Electronics,East,6,780,590,0.15,3978.0,438.0
+275,2025-07-17,C037,Monitor,Electronics,East,5,230,145,0.15,977.5,252.5
+276,2025-10-26,C085,Keyboard,Accessories,South,3,65,30,0,195,105
+277,2025-12-24,C085,Office Chair,Furniture,West,3,210,120,0.15,535.5,175.5
+278,2025-02-13,C040,Keyboard,Accessories,West,5,65,30,0.15,276.25,126.25
+279,2025-12-26,C107,Office Chair,Furniture,North,2,210,120,0.15,357.0,117.0
+280,2025-01-10,C047,Headphones,Electronics,East,5,110,60,0,550,250
+281,2025-09-06,C025,Keyboard,Accessories,South,2,65,30,0,130,70
+282,2025-06-01,C109,Keyboard,Accessories,North,2,65,30,0,130,70
+283,2025-11-13,C017,Laptop,Electronics,West,6,780,590,0,4680,1140
+284,2025-12-21,C099,Keyboard,Accessories,South,2,65,30,0,130,70
+285,2025-07-06,C087,Webcam,Accessories,South,1,85,42,0.05,80.75,38.75
+286,2025-08-18,C030,Webcam,Accessories,South,5,85,42,0,425,215
+287,2025-07-08,C087,Desk,Furniture,West,4,320,190,0,1280,520
+288,2025-09-15,C068,Webcam,Accessories,West,3,85,42,0.05,242.25,116.25
+289,2025-03-12,C033,Keyboard,Accessories,North,2,65,30,0.1,117.0,57.0
+290,2025-02-22,C092,Webcam,Accessories,North,3,85,42,0.1,229.5,103.5
+291,2025-05-20,C058,Desk,Furniture,South,1,320,190,0,320,130
+292,2025-08-19,C045,Headphones,Electronics,North,1,110,60,0,110,50
+293,2025-09-15,C048,Headphones,Electronics,South,1,110,60,0.05,104.5,44.5
+294,2025-04-25,C004,Headphones,Electronics,East,1,110,60,0,110,50
+295,2025-06-21,C102,Monitor,Electronics,South,6,230,145,0.15,1173.0,303.0
+296,2025-08-30,C090,Keyboard,Accessories,South,1,65,30,0,65,35
+297,2025-01-03,C011,Webcam,Accessories,North,4,85,42,0.1,306.0,138.0
+298,2025-10-08,C094,Desk,Furniture,West,2,320,190,0,640,260
+299,2025-06-04,C016,Monitor,Electronics,North,3,230,145,0,690,255
+300,2025-11-15,C059,Mouse,Accessories,North,4,35,12,0.15,119.0,71.0
+301,2025-10-02,C003,Monitor,Electronics,South,4,230,145,0.1,828.0,248.0
+302,2025-01-01,C079,Keyboard,Accessories,East,3,65,30,0.05,185.25,95.25
+303,2025-04-06,C086,Mouse,Accessories,North,5,35,12,0.05,166.25,106.25
+304,2025-10-06,C065,Office Chair,Furniture,North,1,210,120,0.1,189.0,69.0
+305,2025-11-22,C050,Headphones,Electronics,East,4,110,60,0,440,200
+306,2025-07-02,C101,Desk,Furniture,North,6,320,190,0,1920,780
+307,2025-12-03,C081,Office Chair,Furniture,North,2,210,120,0.15,357.0,117.0
+308,2025-06-30,C070,Office Chair,Furniture,East,2,210,120,0,420,180
+309,2025-12-23,C062,Keyboard,Accessories,South,6,65,30,0.05,370.5,190.5
+310,2025-08-23,C005,Keyboard,Accessories,East,1,65,30,0.15,55.25,25.25
+311,2025-01-22,C041,Mouse,Accessories,East,1,35,12,0,35,23
+312,2025-05-10,C005,Headphones,Electronics,South,5,110,60,0.05,522.5,222.5
+313,2025-12-02,C043,Desk,Furniture,East,3,320,190,0,960,390
+314,2025-07-24,C096,Monitor,Electronics,West,3,230,145,0.05,655.5,220.5
+315,2025-09-12,C089,Headphones,Electronics,West,3,110,60,0,330,150
+316,2025-02-12,C094,Office Chair,Furniture,West,5,210,120,0,1050,450
+317,2025-04-03,C070,Monitor,Electronics,East,4,230,145,0.1,828.0,248.0
+318,2025-06-17,C085,Office Chair,Furniture,East,1,210,120,0,210,90
+319,2025-08-07,C022,Desk,Furniture,West,4,320,190,0.1,1152.0,392.0
+320,2025-06-30,C079,Office Chair,Furniture,West,4,210,120,0,840,360
+321,2025-02-08,C086,Desk,Furniture,West,6,320,190,0,1920,780
+322,2025-12-14,C021,Office Chair,Furniture,North,5,210,120,0.15,892.5,292.5
+323,2025-08-13,C005,Keyboard,Accessories,South,5,65,30,0.15,276.25,126.25
+324,2025-07-07,C047,Monitor,Electronics,West,2,230,145,0.15,391.0,101.0
+325,2025-12-14,C058,Laptop,Electronics,East,5,780,590,0,3900,950
+326,2025-10-21,C018,Office Chair,Furniture,East,4,210,120,0,840,360
+327,2025-05-23,C032,Headphones,Electronics,North,3,110,60,0.15,280.5,100.5
+328,2025-09-13,C067,Laptop,Electronics,West,6,780,590,0,4680,1140
+329,2025-12-27,C058,Monitor,Electronics,South,3,230,145,0,690,255
+330,2025-04-13,C016,Desk,Furniture,South,6,320,190,0.05,1824.0,684.0
+331,2025-08-16,C012,Monitor,Electronics,East,4,230,145,0,920,340
+332,2025-10-09,C070,Office Chair,Furniture,East,6,210,120,0,1260,540
+333,2025-12-30,C090,Desk,Furniture,South,2,320,190,0.15,544.0,164.0
+334,2025-03-04,C026,Office Chair,Furniture,South,5,210,120,0,1050,450
+335,2025-07-04,C071,Mouse,Accessories,East,4,35,12,0,140,92
+336,2025-11-10,C012,Webcam,Accessories,North,5,85,42,0,425,215
+337,2025-09-03,C068,Desk,Furniture,West,4,320,190,0.15,1088.0,328.0
+338,2025-03-06,C041,Headphones,Electronics,North,5,110,60,0,550,250
+339,2025-09-22,C045,Webcam,Accessories,South,4,85,42,0.15,289.0,121.0
+340,2025-09-15,C008,Keyboard,Accessories,North,2,65,30,0.05,123.5,63.5
+341,2025-03-24,C042,Keyboard,Accessories,South,3,65,30,0,195,105
+342,2025-02-10,C033,Office Chair,Furniture,South,5,210,120,0,1050,450
+343,2025-06-05,C079,Desk,Furniture,North,2,320,190,0.15,544.0,164.0
+344,2025-03-20,C022,Keyboard,Accessories,East,5,65,30,0.1,292.5,142.5
+345,2025-01-24,C083,Laptop,Electronics,East,1,780,590,0,780,190
+346,2025-11-13,C082,Mouse,Accessories,North,5,35,12,0.05,166.25,106.25
+347,2025-05-29,C083,Webcam,Accessories,East,6,85,42,0.1,459.0,207.0
+348,2025-07-27,C039,Webcam,Accessories,West,2,85,42,0.15,144.5,60.5
+349,2025-03-22,C057,Monitor,Electronics,West,6,230,145,0,1380,510
+350,2025-06-24,C078,Webcam,Accessories,South,4,85,42,0,340,172
+351,2025-06-26,C052,Office Chair,Furniture,South,6,210,120,0,1260,540
+352,2025-02-24,C041,Office Chair,Furniture,South,5,210,120,0.1,945.0,345.0
+353,2025-08-19,C032,Webcam,Accessories,South,1,85,42,0,85,43
+354,2025-07-16,C079,Monitor,Electronics,West,1,230,145,0,230,85
+355,2025-10-23,C093,Mouse,Accessories,East,2,35,12,0,70,46
+356,2025-09-21,C060,Mouse,Accessories,West,2,35,12,0.05,66.5,42.5
+357,2025-02-16,C051,Desk,Furniture,West,4,320,190,0,1280,520
+358,2025-06-30,C007,Mouse,Accessories,North,2,35,12,0.1,63.0,39.0
+359,2025-12-01,C087,Desk,Furniture,West,4,320,190,0.1,1152.0,392.0
+360,2025-02-25,C056,Desk,Furniture,South,5,320,190,0,1600,650
+361,2025-07-26,C047,Desk,Furniture,North,6,320,190,0,1920,780
+362,2025-10-15,C025,Headphones,Electronics,East,1,110,60,0.1,99.0,39.0
+363,2025-09-16,C058,Desk,Furniture,East,1,320,190,0.05,304.0,114.0
+364,2025-07-21,C048,Monitor,Electronics,East,2,230,145,0,460,170
+365,2025-11-05,C066,Office Chair,Furniture,West,2,210,120,0,420,180
+366,2025-03-12,C092,Laptop,Electronics,East,1,780,590,0,780,190
+367,2025-03-18,C078,Webcam,Accessories,South,5,85,42,0.05,403.75,193.75
+368,2025-03-25,C051,Office Chair,Furniture,East,5,210,120,0,1050,450
+369,2025-09-30,C063,Office Chair,Furniture,East,5,210,120,0.1,945.0,345.0
+370,2025-06-19,C087,Webcam,Accessories,North,1,85,42,0,85,43
+371,2025-12-19,C081,Headphones,Electronics,North,5,110,60,0,550,250
+372,2025-10-24,C074,Webcam,Accessories,South,3,85,42,0.15,216.75,90.75
+373,2025-03-29,C068,Laptop,Electronics,West,5,780,590,0.05,3705.0,755.0
+374,2025-01-17,C074,Keyboard,Accessories,North,6,65,30,0,390,210
+375,2025-06-10,C054,Mouse,Accessories,South,1,35,12,0.05,33.25,21.25
+376,2025-07-30,C065,Headphones,Electronics,West,6,110,60,0,660,300
+377,2025-09-23,C027,Laptop,Electronics,East,6,780,590,0,4680,1140
+378,2025-06-10,C023,Webcam,Accessories,West,5,85,42,0.05,403.75,193.75
+379,2025-12-13,C099,Office Chair,Furniture,East,5,210,120,0,1050,450
+380,2025-05-23,C072,Webcam,Accessories,East,2,85,42,0,170,86
+381,2025-12-27,C027,Mouse,Accessories,West,3,35,12,0,105,69
+382,2025-10-14,C102,Office Chair,Furniture,East,4,210,120,0,840,360
+383,2025-12-13,C070,Desk,Furniture,West,1,320,190,0.1,288.0,98.0
+384,2025-05-29,C006,Headphones,Electronics,East,3,110,60,0,330,150
+385,2025-12-02,C033,Monitor,Electronics,West,3,230,145,0.05,655.5,220.5
+386,2025-05-19,C072,Mouse,Accessories,East,2,35,12,0.1,63.0,39.0
+387,2025-10-28,C031,Keyboard,Accessories,South,1,65,30,0.1,58.5,28.5
+388,2025-04-26,C082,Laptop,Electronics,South,6,780,590,0.1,4212.0,672.0
+389,2025-06-19,C092,Laptop,Electronics,West,1,780,590,0.05,741.0,151.0
+390,2025-01-03,C071,Monitor,Electronics,South,6,230,145,0,1380,510
+391,2025-09-02,C084,Headphones,Electronics,South,6,110,60,0.05,627.0,267.0
+392,2025-11-27,C008,Desk,Furniture,North,3,320,190,0,960,390
+393,2025-01-20,C023,Mouse,Accessories,West,5,35,12,0.15,148.75,88.75
+394,2025-09-11,C024,Keyboard,Accessories,East,1,65,30,0.05,61.75,31.75
+395,2025-10-18,C078,Laptop,Electronics,North,1,780,590,0,780,190
+396,2025-11-25,C070,Office Chair,Furniture,West,3,210,120,0.05,598.5,238.5
+397,2025-05-20,C025,Keyboard,Accessories,North,5,65,30,0.05,308.75,158.75
+398,2025-08-23,C083,Office Chair,Furniture,East,2,210,120,0.15,357.0,117.0
+399,2025-06-22,C102,Keyboard,Accessories,East,1,65,30,0.15,55.25,25.25
+400,2025-11-24,C052,Mouse,Accessories,West,2,35,12,0.1,63.0,39.0
+401,2025-12-09,C013,Office Chair,Furniture,South,1,210,120,0.05,199.5,79.5
+402,2025-05-08,C001,Keyboard,Accessories,East,4,65,30,0,260,140
+403,2025-05-17,C043,Headphones,Electronics,East,2,110,60,0.05,209.0,89.0
+404,2025-07-04,C089,Laptop,Electronics,South,3,780,590,0.15,1989.0,219.0
+405,2025-08-27,C040,Laptop,Electronics,South,6,780,590,0,4680,1140
+406,2025-12-27,C099,Headphones,Electronics,East,6,110,60,0.1,594.0,234.0
+407,2025-07-08,C079,Monitor,Electronics,South,6,230,145,0,1380,510
+408,2025-03-20,C059,Mouse,Accessories,East,2,35,12,0.05,66.5,42.5
+409,2025-08-30,C097,Headphones,Electronics,South,6,110,60,0.1,594.0,234.0
+410,2025-02-11,C068,Mouse,Accessories,West,6,35,12,0.1,189.0,117.0
+411,2025-02-27,C008,Office Chair,Furniture,South,1,210,120,0.1,189.0,69.0
+412,2025-09-24,C057,Keyboard,Accessories,North,2,65,30,0,130,70
+413,2025-09-08,C012,Mouse,Accessories,West,6,35,12,0.1,189.0,117.0
+414,2025-09-20,C054,Laptop,Electronics,West,4,780,590,0,3120,760
+415,2025-12-11,C104,Laptop,Electronics,East,5,780,590,0.05,3705.0,755.0
+416,2025-01-02,C096,Laptop,Electronics,South,4,780,590,0,3120,760
+417,2025-06-26,C090,Monitor,Electronics,North,1,230,145,0.05,218.5,73.5
+418,2025-01-17,C037,Laptop,Electronics,West,1,780,590,0.05,741.0,151.0
+419,2025-11-27,C054,Keyboard,Accessories,East,2,65,30,0.15,110.5,50.5
+420,2025-07-12,C011,Headphones,Electronics,South,4,110,60,0.05,418.0,178.0
+421,2025-10-03,C051,Office Chair,Furniture,South,1,210,120,0,210,90
+422,2025-06-02,C060,Mouse,Accessories,West,1,35,12,0,35,23
+423,2025-08-24,C045,Headphones,Electronics,South,2,110,60,0,220,100
+424,2025-02-27,C005,Desk,Furniture,West,2,320,190,0.15,544.0,164.0
+425,2025-02-04,C013,Laptop,Electronics,North,2,780,590,0,1560,380
+426,2025-12-27,C007,Webcam,Accessories,South,5,85,42,0.15,361.25,151.25
+427,2025-04-30,C070,Laptop,Electronics,South,4,780,590,0.05,2964.0,604.0
+428,2025-05-29,C030,Laptop,Electronics,East,2,780,590,0.1,1404.0,224.0
+429,2025-03-15,C085,Office Chair,Furniture,South,2,210,120,0,420,180
+430,2025-02-01,C072,Headphones,Electronics,South,3,110,60,0,330,150
+431,2025-01-25,C045,Headphones,Electronics,West,5,110,60,0.05,522.5,222.5
+432,2025-07-29,C020,Office Chair,Furniture,East,6,210,120,0.05,1197.0,477.0
+433,2025-08-31,C031,Headphones,Electronics,South,2,110,60,0.1,198.0,78.0
+434,2025-08-26,C008,Desk,Furniture,West,6,320,190,0,1920,780
+435,2025-03-10,C050,Headphones,Electronics,South,5,110,60,0.1,495.0,195.0
+436,2025-11-28,C011,Desk,Furniture,West,2,320,190,0,640,260
+437,2025-04-08,C007,Office Chair,Furniture,East,1,210,120,0.1,189.0,69.0
+438,2025-11-05,C006,Headphones,Electronics,North,6,110,60,0.1,594.0,234.0
+439,2025-12-10,C072,Mouse,Accessories,South,5,35,12,0.15,148.75,88.75
+440,2025-06-05,C002,Webcam,Accessories,South,2,85,42,0,170,86
+441,2025-09-03,C032,Mouse,Accessories,South,6,35,12,0,210,138
+442,2025-06-14,C100,Headphones,Electronics,East,2,110,60,0.1,198.0,78.0
+443,2025-11-29,C046,Headphones,Electronics,East,4,110,60,0.1,396.0,156.0
+444,2025-09-12,C060,Desk,Furniture,North,3,320,190,0.1,864.0,294.0
+445,2025-07-09,C041,Webcam,Accessories,West,3,85,42,0,255,129
+446,2025-03-16,C003,Laptop,Electronics,East,5,780,590,0,3900,950
+447,2025-04-11,C043,Headphones,Electronics,South,3,110,60,0,330,150
+448,2025-09-13,C071,Headphones,Electronics,East,5,110,60,0,550,250
+449,2025-11-25,C095,Desk,Furniture,West,4,320,190,0.15,1088.0,328.0
+450,2025-06-30,C022,Webcam,Accessories,South,2,85,42,0.15,144.5,60.5
+451,2025-11-25,C008,Webcam,Accessories,North,2,85,42,0.1,153.0,69.0
+452,2025-01-04,C053,Monitor,Electronics,South,6,230,145,0,1380,510
+453,2025-03-19,C002,Mouse,Accessories,South,1,35,12,0.15,29.75,17.75
+454,2025-11-13,C082,Webcam,Accessories,West,3,85,42,0,255,129
+455,2025-09-30,C071,Webcam,Accessories,West,1,85,42,0,85,43
+456,2025-05-21,C069,Laptop,Electronics,East,1,780,590,0.1,702.0,112.0
+457,2025-12-12,C056,Laptop,Electronics,South,5,780,590,0.15,3315.0,365.0
+458,2025-03-18,C031,Monitor,Electronics,South,1,230,145,0.1,207.0,62.0
+459,2025-07-23,C011,Desk,Furniture,East,3,320,190,0,960,390
+460,2025-05-05,C090,Headphones,Electronics,South,4,110,60,0.1,396.0,156.0
+461,2025-12-01,C110,Desk,Furniture,North,6,320,190,0,1920,780
+462,2025-07-13,C071,Monitor,Electronics,West,4,230,145,0.05,874.0,294.0
+463,2025-12-26,C022,Laptop,Electronics,North,6,780,590,0,4680,1140
+464,2025-06-19,C073,Webcam,Accessories,North,4,85,42,0.15,289.0,121.0
+465,2025-12-21,C073,Laptop,Electronics,West,2,780,590,0,1560,380
+466,2025-12-17,C036,Desk,Furniture,North,1,320,190,0,320,130
+467,2025-04-17,C076,Keyboard,Accessories,South,3,65,30,0,195,105
+468,2025-03-25,C073,Headphones,Electronics,South,1,110,60,0,110,50
+469,2025-06-19,C050,Headphones,Electronics,South,6,110,60,0.1,594.0,234.0
+470,2025-06-27,C007,Monitor,Electronics,North,5,230,145,0.15,977.5,252.5
+471,2025-06-24,C078,Headphones,Electronics,West,2,110,60,0,220,100
+472,2025-05-20,C101,Office Chair,Furniture,West,1,210,120,0.15,178.5,58.5
+473,2025-10-11,C049,Webcam,Accessories,West,2,85,42,0,170,86
+474,2025-12-05,C049,Keyboard,Accessories,North,6,65,30,0.1,351.0,171.0
+475,2025-02-07,C011,Desk,Furniture,East,2,320,190,0.15,544.0,164.0
+476,2025-11-21,C020,Keyboard,Accessories,West,4,65,30,0.15,221.0,101.0
+477,2025-02-16,C001,Office Chair,Furniture,East,3,210,120,0,630,270
+478,2025-02-22,C017,Webcam,Accessories,North,3,85,42,0,255,129
+479,2025-10-13,C072,Keyboard,Accessories,West,4,65,30,0.05,247.0,127.0
+480,2025-07-01,C071,Monitor,Electronics,North,1,230,145,0,230,85
+481,2025-05-30,C053,Office Chair,Furniture,West,4,210,120,0,840,360
+482,2025-05-05,C074,Monitor,Electronics,South,6,230,145,0.1,1242.0,372.0
+483,2025-05-18,C039,Headphones,Electronics,East,2,110,60,0,220,100
+484,2025-03-27,C056,Webcam,Accessories,East,2,85,42,0,170,86
+485,2025-02-09,C047,Headphones,Electronics,East,3,110,60,0.05,313.5,133.5
+486,2025-09-11,C077,Mouse,Accessories,South,6,35,12,0.15,178.5,106.5
+487,2025-06-05,C001,Webcam,Accessories,West,1,85,42,0,85,43
+488,2025-06-18,C057,Office Chair,Furniture,East,5,210,120,0.05,997.5,397.5
+489,2025-03-11,C039,Headphones,Electronics,East,6,110,60,0.1,594.0,234.0
+490,2025-04-01,C051,Mouse,Accessories,East,4,35,12,0,140,92
+491,2025-11-21,C063,Desk,Furniture,South,6,320,190,0.15,1632.0,492.0
+492,2025-07-21,C047,Office Chair,Furniture,North,4,210,120,0,840,360
+493,2025-04-03,C088,Mouse,Accessories,North,5,35,12,0.1,157.5,97.5
+494,2025-08-13,C103,Webcam,Accessories,East,6,85,42,0,510,258
+495,2025-09-13,C018,Monitor,Electronics,East,4,230,145,0.15,782.0,202.0
+496,2025-03-20,C092,Mouse,Accessories,West,3,35,12,0.15,89.25,53.25
+497,2025-11-03,C062,Headphones,Electronics,West,1,110,60,0.05,104.5,44.5
+498,2025-07-04,C090,Headphones,Electronics,North,5,110,60,0,550,250
+499,2025-12-07,C046,Monitor,Electronics,South,2,230,145,0.15,391.0,101.0
+500,2025-12-13,C083,Laptop,Electronics,West,5,780,590,0.15,3315.0,365.0
