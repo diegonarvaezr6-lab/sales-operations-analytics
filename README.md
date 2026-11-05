@@ -1,4 +1,9 @@
 # Sales & Operations Analytics Dashboard
+## Live Dashboard
+
+[View Interactive Sales Analytics Dashboard](https://sales-operations-analytics-xmhkedzqw6usetxp4tscp2.streamlit.app/)
+
+Explore revenue, profit, regional performance, product categories, and business insights using 500 synthetic sales transactions.
 
 ## Project Overview
 An end-to-end sales analytics portfolio project built using Python, SQL, Excel, and Streamlit. The project analyzes 500 synthetic sales transactions from 2025 and presents interactive business insights.
